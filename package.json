@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.1",
+  "description": "JS ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skitol/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript"
+  ],
+  "author": "Kyle Kalwarski <kkalwarski@gmail.com>",
+  "private": false,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skitol/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "devDependencies": {
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^7.18.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1 || ^5.16.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "homepage": "https://github.com/skitol/eslint-config#readme"
+}
